@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/pythonProject1/Fjj_Snake/.idea/Fjj_Snake.iml" filepath="$PROJECT_DIR$/pythonProject1/Fjj_Snake/.idea/Fjj_Snake.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pythonProject1/MySpider/.idea/My.iml" filepath="$PROJECT_DIR$/pythonProject1/MySpider/.idea/My.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pythonProject1/MyChat/.idea/MyChat.iml" filepath="$PROJECT_DIR$/pythonProject1/MyChat/.idea/MyChat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Myspide/.idea/MySpide.iml" filepath="$PROJECT_DIR$/Myspide/.idea/MySpide.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/PycharmProjects.iml" filepath="$PROJECT_DIR$/.idea/PycharmProjects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sql_day28/.idea/sql_day28.iml" filepath="$PROJECT_DIR$/sql_day28/.idea/sql_day28.iml" />
+    </modules>
+  </component>
+</project>

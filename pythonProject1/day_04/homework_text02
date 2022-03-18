@@ -1,0 +1,77 @@
+# 1	x 为 0-99 取一个数,y 为 0-199 取一个数,如果 x>y 则输出 x， 如果 x 等于 y 则输出 x+y，否则输出y
+# 2.计算从1到1000以内所有奇数的和并输出
+# 	Sum0 = 0
+# 	For i in range(1, 1001):
+# 		If i % 2 != 0:
+# 			Sum0 += i
+# 	Print(sum0)
+
+# 3.	求1--100之间可以被7整除的数的个数
+# 			Count = 0
+# 			For i in range(1, 101):
+# 				If i % 7 == 0:
+# 					Count += 12
+# 			Print(count)
+
+# 4.计算1到100以内能被7或者3整除但不能同时被这两者整除的数的个数。
+# Count = 0
+# for i in range(1,101):
+#      if (i % 3 == 0 or i % 7 == 0) and i % 21 != 0 :
+#         Count += 1
+# print(Count)
+# 5.3000米长的绳子，每天减一半。问多少天这个绳子会小于5米？不考虑小数
+# L = 3000
+# Day = 0
+# while L >= 5:
+#     L = L // 2
+#     Day += 1
+# print(Day)
+#
+# 6.输出1000以内的所有水仙花数：
+#   水仙花数：一个三位数各个位上的立方之和，等于本身。
+#   例如： 153 = 1（3） + 5（3）+ 3（3） = 1+125+27 = 153
+# sum = 0
+# for i in range(100,1001):
+#     a = i // 100
+#     b = i // 10 % 10
+#     c = i % 10
+#     if i == a*a*a + b*b*b + c*c*c:
+#         sum += 1
+# print(sum)
+# #
+#
+# 7.石头剪刀布游戏
+# 		0 表示石头  1表示剪刀  2表示布
+# 		系统随机生成0-2之间的任意一个数
+# 		用户输入0-2中的任意一个数
+# 		验证输赢
+# 			当用户赢了之后
+# 			问用户是否继续玩 输入 yes 为继续  no 为退出 其他时要求重新输入 yes 或者 no
+# 【注意： 石头 > 剪刀   剪刀 > 布  布 > 石头】
+# 0 - 1  赢了
+# 1 - 2 赢了
+# 2 - 0 赢了
+# User_num- sys_num == -1 or user_num - sys_num ==2
+# User_num == sys_num
+# 游戏继续的状态:
+# 主要用户回答的是yes  就玩下去
+#
+import random
+User_num = int(input("请输入 0~2 之间的整数："))
+Sys_num = random.randint(0,2)
+if User_num- Sys_num == -1 or User_num - Sys_num ==2 :
+    print("用户获胜")
+else:
+    print("系统获胜")
+
+anouser = input("是否继续游戏，yes or no ：")
+if anouser == "yes" :
+    User_num = int(input("请输入 0~2 之间的整数："))
+    Sys_num = random.randint(0, 2)
+    if User_num - Sys_num == -1 or User_num - Sys_num == 2:
+        print("用户获胜")
+    else:
+        print("系统获胜")
+else:
+    print("游戏结束！")
+

@@ -1,0 +1,17 @@
+n = 0
+while n <= 100 :
+    if n ==24 :
+        break
+    print(n)
+    n += 1
+    print("-----------------")
+
+#continue:跳过此次循环，进入下一次循环。注意：会跳过后面的代码。
+n = -1
+while n < 100:
+    n +=1
+    if n == 24:
+        continue
+
+    print(n)
+    # n += 1
